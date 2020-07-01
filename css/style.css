@@ -3,6 +3,11 @@ body {
   margin: 0px;
 }
 
+.hover_effect:hover {
+  background-image: linear-gradient(45deg, goldenrod, #d81462);
+  text-shadow: 6px 6px 6px dimgray;
+}
+
 h1 {
   font-size: 50px;
 }
@@ -10,6 +15,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 600;
+  text-shadow: 6px 6px 6px dimgray;
 }
 
 p {
@@ -33,22 +39,27 @@ p {
   width: 30%;
   float: left;
   margin-left: 5%;
-  margin-right: 2%;
+  margin-right: 5%;
   padding-left: 8%;
-  padding-top: 4%;
+  padding-top: 5%;
 }
 
 .secoend_half {
   width: 30%;
   float: left;
   margin-left: 5%;
-  margin-right: 6%;
+  margin-right: 3%;
   padding-left: 3%;
   padding-top: 4%;
 }
 
 .half_width img {
-  width: 100%;
+  width: 110%;
+}
+
+.bio_image {
+  width: 25%;
+  margin-right: 10%;
 }
 
 .link_btn {
@@ -62,7 +73,8 @@ p {
 
 .top_banner {
   background-image: url("../images/header-bg.png");
-  background-position: left;
+  background-repeat: no-repeat;
+  background-position: fixed;
 }
 
 section {
@@ -70,12 +82,13 @@ section {
   padding-bottom: 150px;
 }
 
-/* extra zone */
+/* contact (extra) zone */
 
-#contac {
+.contac {
   color: black;
   text-align: center;
   margin-bottom: 25px;
+  text-shadow: 7px 7px 7px dimgray;
 }
 
 .extra_box {
@@ -115,24 +128,27 @@ section {
   font-weight: 500;
 }
 
-/* section two start */
+/* Biography section */
 
 .biography {
   background-image: url("../images/biography-bg.png");
   background-repeat: no-repeat;
+  background-position: fixed;
 }
 
-/* Latext work zoene*/
+/* Latext work section */
 
 .center_heading {
   text-align: center;
   font-weight: 600;
   margin-top: 6%;
+  text-shadow: 7px 7px 7px dimgray;
 }
 
 .latest_work {
   background-image: url("../images/latest-work-bg.png");
   background-repeat: no-repeat;
+  background-position: fixed;
 }
 
 .latest_work img {
@@ -144,11 +160,12 @@ section {
   margin-bottom: 5%;
 }
 
-/* client say zone */
+/* client say section */
 
 .bottom_section {
   background-image: url("../images/footer-bg.png");
   background-repeat: no-repeat;
+  background-position: fixed;
   background-size: cover;
 }
 
@@ -169,6 +186,7 @@ section {
 
 .message {
   text-align: center;
+  color: white;
   font-size: small;
   font-weight: 500;
 }
@@ -180,8 +198,8 @@ section {
 }
 
 .box_model {
-  border: 10px solid orange;
-  background-color: orange;
+  border: 10px solid goldenrod;
+  background-color: goldenrod;
   color: white;
   border-radius: 10px;
   margin-left: 35%;
@@ -189,7 +207,7 @@ section {
   box-shadow: 10px 10px 10px dimgray;
 }
 
-/* fotter design */
+/* fotter section */
 
 footer {
   position: static;
